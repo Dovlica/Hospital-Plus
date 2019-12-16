@@ -9,9 +9,7 @@
     git config --global user.name "Dovlica"
 
     Set your email address:
-
     1
-
     git config --global user.email "OUR_NAME@example.com"
     git config --global user.email "vlada.lukic@gmail.com"
 
