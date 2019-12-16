@@ -1,0 +1,76 @@
+ Git - set global username and email configuration
+
+    Open command line (eg git bash)
+    Set your username:
+
+    1
+
+    git config --global user.name "FIRST_NAME LAST_NAME"
+    git config --global user.name "Dovlica"
+
+    Set your email address:
+
+    1
+
+    git config --global user.email "OUR_NAME@example.com"
+    git config --global user.email "vlada.lukic@gmail.com"
+
+    Verify your configuration by showing username and email
+
+    1
+
+    # show username
+
+    2
+
+    git config user.name
+
+    3
+
+    # show email
+
+    4
+
+    git config user.email
+
+3. Git - set username and email configuration for single repository
+
+    Open command line (eg git bash) and change directory into specific repository
+    Set your username:
+
+    1
+
+    git config user.name "FIRST_NAME LAST_NAME"
+
+    Set your username:
+
+    1
+
+    git config user.email "OUR_NAME@example.com"
+
+    Verify your configuration by showing username and email
+
+1
+
+# show username
+
+2
+
+git config user.name
+
+3
+
+# show email
+
+4
+
+git config user.email
+
+# Please make sure you have the correct access rights and the repository exists.
+ssh-keygen -t rsa -b 4096 -C "vlada.lukic@gmail.com"
+
+# start the ssh-agent in the background
+eval ssh-agent
+
+$ eval $(ssh-agent -s)
+> Agent pid 59566
